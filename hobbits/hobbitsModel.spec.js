@@ -16,7 +16,7 @@ describe('hobbits model', () => {
     it('should insert provided hobbit', async() => {
       let hobbit = await Hobbits.insert({ name: 'gaffer' });
       expect(hobbit.name).toBe('gaffer');
-      let hobbit = await Hobbits.insert({ name: 'sam' });
+      hobbit = await Hobbits.insert({ name: 'sam' });
       expect(hobbit.name).toBe('sam');
       const hobbits = await db('hobbits');
       expect(hobbits).toHaveLength(2);
