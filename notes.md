@@ -9,3 +9,10 @@ function name(args) => return something;
 - data access: talk to the persistent data store.
 
 set the test environment to run on 'node' instead of a browser
+
+Four Pillars (Opinion Alert)
+
+- quality <- non-negotiable
+- budget (Benjamins) -> external constraints
+- time -> external constraints
+- scope -> this one has to give
